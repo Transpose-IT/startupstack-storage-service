@@ -29,8 +29,6 @@ public class RepositoriesModel {
     @NotBlank(message = "name may not be blank")
     private String name;
 
-    private String tenantID;
-
     public RepositoriesModel() {
 
     }
@@ -45,14 +43,6 @@ public class RepositoriesModel {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getTenantID() {
-        return this.tenantID;
-    }
-
-    public void setTenantID(String tenantID) {
-        this.tenantID = tenantID;
     }
 
 }

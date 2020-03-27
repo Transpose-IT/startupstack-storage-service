@@ -20,9 +20,7 @@ package dev.startupstack.storageservice.objects;
 import static dev.startupstack.storageservice.Constants.OBJECTS_URL;
 import static dev.startupstack.storageservice.Constants.ROLE_TENANT_ADMIN;
 import static dev.startupstack.storageservice.Constants.ROLE_TENANT_USER;
-
 import java.io.IOException;
-
 import javax.annotation.security.RolesAllowed;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
@@ -36,7 +34,6 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.media.Content;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;
@@ -44,7 +41,6 @@ import org.eclipse.microprofile.openapi.annotations.responses.APIResponse;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 import org.jboss.resteasy.annotations.providers.multipart.MultipartForm;
 import org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataInput;
-
 import dev.startupstack.storageservice.objects.models.ObjectInfoModel;
 
 /**
